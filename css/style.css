@@ -7,7 +7,7 @@
 html{
     font-size: 62.5%;
     background-color: #1c1d25;
-
+    scroll-behavior: smooth;
 }
 
 html,
@@ -22,7 +22,10 @@ h2{font-size: 3rem;
 h3{font-size: 2.6rem;
     font-family: 'League Spartan';}
 h4{font-size: 2.1rem;
+    font-family: 'League Spartan';}
+h5{font-size: 2.1rem;
     font-family: 'Libre Baskerville';}
+
 p{font-size: 1.5rem;
     font-family: 'Libre Baskerville';}
 ul{list-style: none;}
@@ -43,6 +46,7 @@ ul{list-style: none;}
     background-color: rgb(103, 87, 45);
     cursor: pointer;
 }
+
 
 .contenedor{
     max-width: 1400px;
@@ -131,7 +135,7 @@ ul{list-style: none;}
     border-radius: 50%;
 }
 
-.aboutme .contenedor .sobremi-text h4{
+.aboutme .contenedor .sobremi-text h5{
     font-size: 1.2rem;
     font-style: italic;
     font-weight: normal;
@@ -150,6 +154,111 @@ ul{list-style: none;}
     color: rgb(246, 225, 172);
     font-weight: bold;
 }
+
+.portfolio .contenedor{
+    background-color:  #1c1d25;
+    text-align: center;
+    padding: 50px 12px;
+    color: whitesmoke;
+}
+
+.portfolio .contenedor h3{
+    padding-bottom: 20px;
+    color: rgb(246, 225, 172);
+    
+}
+
+.portfolio .contenedor h4{
+    padding-bottom: 20px;
+    padding-top: 20px;  
+}
+
+.portfolio .card{
+    background-position: center center;
+    background-size: cover;
+    padding:80px;
+    margin: 20px;
+    border-radius:20px;
+}
+
+
+.card .btn{
+    font-family: 'League Spartan';
+    font-size: 1.5rem;
+    font-weight:bold;
+    padding: 10px 20px;
+    border-radius: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.5);;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color:  rgb(184, 153, 74);
+}
+
+.card .btn:hover{
+    background-color: rgb(103, 87, 45);
+    cursor: pointer;
+}
+
+
+.card:first-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PortfolioCss/img/Remdig.png");
+    
+}
+
+.card:nth-child(2){
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PortfolioCss/img/musa.png");
+   
+}
+
+.card:last-child{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url("/PortfolioCss/img/guacamolin.png");
+    
+}
+
+
+.contact .contenedor{
+    background-color: #3e4050;
+    text-align: center;
+    padding: 50px 12px;
+    color: whitesmoke;
+}
+
+.contact .contenedor h3{
+    padding-bottom: 20px;
+    color: rgb(246, 225, 172);
+}
+
+.contact .contenedor img{
+    width: 200px;
+}
+
+.contact .contenedor p{
+    font-family: 'League Spartan';
+    font-size: 3rem;
+}
+
+footer{
+    text-align: center;
+    color: whitesmoke;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
 
 
 
