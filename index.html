@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css" />
+  <link rel="stylesheet" href="CSS/tablet.css" media="(min-width: 600px)" />
+  <link rel="stylesheet" href="CSS/desktop.css" media="(min-width: 800px)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Poppins&display=swap" rel="stylesheet">
+  <title>PATOJOJO</title>
 </head>
+
 <body>
-    
+  <main class="raiz">
+    <header class="header">
+      <nav class="navbar">
+        <div class="logo">
+          <img src="img/Patologo.png" alt="logoPato" width="75px">
+        </div>
+        
+        <ul class="nav-ul">
+          <li><a href="#home">INICIO</a></li>
+          <li><a href="#aboutme">SOBRE MÍ</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#contact">CONTACTO</a></li>
+        </ul>
+      </nav>
+      
+    </header>
+
+    <section id="home" class="grid">
+      <div class="intro-text">
+        <h1>Juan "JoJo" Vanegas </h1>
+        <h2>Creo y Desarrollo Experiencias Interativas</h2>
+        <a href="#aboutmi" class="button">Sobre mí</a>
+      </div>
+      <div class="intro-img">
+        <img src="img/Patologo.png" alt="Imagen del logo" width="70px" >
+      </div>
+    </section>
+
+    <section id="aboutme">
+      <div class="contenedor">
+        <div class="sobremi-img">
+          <img src="img/yop.jpg" alt="imagen de jojo" width="70px">
+        </div>
+        <div class="sobremi-text">
+          <h3>SOBRE MÍ</h3>
+          <h4>Desarrollador de Experiencias Interativas y UX</h4>
+          <p>Soy Juan José Vanegas mas conocido como "JoJo", un chico Colombiano de 22 años que estudia
+            Ingenieria de Diseño en Entretenimiento Digital, disfruto <span> imaginar, crear y desarrollar</span> experiencias
+            interactivas
+            creyendo siempre en la importancia de la innovación y creatividad a la hora de crearlas.
+          </p>
+          <p>Durante el período que he estado en la Universidad he tenido el privilegio de trabajar y hacer proyectos
+            con diferentes
+            herramientas como la <span>realidad virtual, interfaces de usuario y desarrollo web.</span> 
+          </p>
+          <p>Mi principal enfoque en este momento es construir mi propio portfolio web para mostrar mis conocimientos y
+            habilidades,
+            ademas de querer crear experiencias y soluciones interactivas digitales con las tecnologias emergentes para
+            <span>problematicas culturales y sociales. </span> </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="contedor">
+        <h3>PORTFOLIO</h3>
+        <div class="trabajos">
+          <div class="card">
+            <h3>Proyecto</h3>
+            <button>Conoce el proyecto</button>
+          </div>
+          <div class="card">
+            <h3>Proyecto</h3>
+            <button>Conoce el proyecto</button>
+          </div>
+          <div class="card">
+            <h3>Proyecto</h3>
+            <button>Conoce el proyecto</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contactame!</h2>
+      <p>boovanegas@gmail.com</p>
+    </section>
+
+  </main>
 </body>
+<footer>
+  © 2022 Juan Vanegas 
+</footer>
 </html>
