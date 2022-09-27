@@ -1,0 +1,106 @@
+/*NAV*/
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.header .contenedor{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .menu{
+    flex-direction: row;
+    padding: 0;
+    padding-right: 200px;
+}
+
+
+.header .logo{
+    padding-left: 200px;
+}
+
+/*INTRO*/
+.intro{
+    height: 100vh;
+}
+
+.intro h1{
+    font-size: 7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: whitesmoke;
+}
+
+.intro h2{
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 40px;
+    color: whitesmoke;
+    font-weight: normal;
+}
+
+
+/*ABOUT*/
+.aboutme .contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme .imgweb{
+    background-image: url("/PortfolioCss/img/yopweb.jpg");
+    background-size: cover; 
+    background-position: center center;
+    height: 500px;
+    width: 400px;
+
+}
+
+.aboutme .sobremi-img img{
+    display: none;
+}
+
+.aboutme .sobremi-text{
+    width: 50%;
+    text-align: initial;
+    padding: 0px 30px;
+    max-width: 600px;
+}
+
+.aboutme .sobremi-text h3{
+    font-size: 4rem;
+}
+
+.aboutme .contenedor .sobremi-text h5{
+    font-size: 1.4rem;
+}
+
+.aboutme .contenedor .sobremi-text p{
+    font-size: 1.6rem;
+}
+
+/*PORTFOLIO*/
+.portfolio .trabajos{
+    
+}
+
+.portfolio .card{
+    padding:200px;
+}
+
+.portfolio .contenedor h3{
+    padding-bottom: 50px;
+    font-size: 4rem;
+}
+
+.card .btn{
+    font-family: 'League Spartan';
+    font-size: 2rem;
+    font-weight:bold;
+    padding: 15px 40px;
+    
+}
+
+
+
