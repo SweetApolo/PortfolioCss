@@ -203,7 +203,7 @@ ul{list-style: none;}
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PortfolioCss/img/Remdig.png");
+    ,url("../img/Remdig.png");
     
 }
 
@@ -213,7 +213,7 @@ ul{list-style: none;}
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PortfolioCss/img/musa.png");
+    ,url("../img/musa.png");
    
 }
 
@@ -223,7 +223,7 @@ ul{list-style: none;}
         rgba(0,0,0,0.5),
         rgba(0,0,0,0.5)
     )
-    ,url("/PortfolioCss/img/guacamolin.png");
+    ,url("../img/guacamolin.png");
     
 }
 

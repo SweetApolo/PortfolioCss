@@ -49,7 +49,7 @@
 }
 
 .aboutme .imgweb{
-    background-image: url("/PortfolioCss/img/yopweb.jpg");
+    background-image: url("../img/yopweb.jpg");
     background-size: cover; 
     background-position: center center;
     height: 500px;
